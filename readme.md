@@ -33,6 +33,7 @@ Step 5. git pull –u origin master to load the file to the upstream
 
 
 [1] http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 [2] https://help.github.com/articles/caching-your-github-password-in-git/
 
 
