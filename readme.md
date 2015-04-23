@@ -13,35 +13,45 @@ To create a DocTM repository do the following:
 	git init
 
 5) Add your name and email address to the repository so that your comments and commits will be properly connected to you.
-	
+
 	git config --local user.name “Your name”
-	
+
+
 	git config --local user.email “Your email address”
 
 
-6) Cache the github password using osxkeychain. This will simplify the login process by automating it. The link [3] gives all the necessary details.
+6) Clone the upstream found in git hub to your repository.
+
+	git clone https://github.com/NalinSugathapala/wso2-training.git
 
 
-To merge a word document, use the Tools > Merge Documents feature in MS Word. Do this with track changes enabled. Track changes can be enabled from the Review tab in MS Word. 
+To merge a word document, use the Tools > Merge Documents feature in MS Word. Do this with track changes enabled. Track changes can be enabled from the Review tab in MS Word.
 
 
 Document editing life cycle
 
-Step 1. git fetch to get the latest from the Repo
+Step 1. Get the latest from the Repo
+
+	git fetch
+
 
 Step 2. Edit the document in MS Word as save the file outside the git repo
 
-Step 3. git feth to get the latest from the Repo
+Step 3. Get the latest from the Repo
+
+	git fetch
+
 
 Step 4. Merge the version in the git repo and the modified file and commit the file
 
-Step 5. git pull –u origin master to load the file to the upstream
+	git commit -a -m "your commit message goes here"
+
+Step 5. Load the files to the upstream.
+
+	git pull –u origin master
+
 
 
 [1] https://github.com/
 
 [2] http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-[3] https://help.github.com/articles/caching-your-github-password-in-git/
-
-
