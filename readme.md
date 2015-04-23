@@ -14,10 +14,14 @@ To merge a word document, use the Tools > Merge Documents feature in MS Word. Do
 
 Document editing life cycle
 
-Step 1. git feth to get the latest from the Repo
+Step 1. git fetch to get the latest from the Repo
+
 Step 2. Edit the document in MS Word as save the file outside the git repo
+
 Step 3. git feth to get the latest from the Repo
+
 Step 4. Merge the version in the git repo and the modified file and commit the file
+
 Step 5. git pull –u origin master to load the file to the upstream
 
 
