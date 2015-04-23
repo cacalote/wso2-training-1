@@ -44,6 +44,8 @@ Step 3. Get the latest from the Repo
 
 Step 4. Merge the version in the git repo and the modified file and commit the file
 
+	git commit -a -m "your commit message goes here"
+
 Step 5. Load the files to the upstream.
 
 	git pull –u origin master
