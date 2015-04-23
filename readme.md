@@ -51,7 +51,10 @@ Step 5. Load the files to the upstream.
 	git pull –u origin master
 
 
+Found a cheet sheet with git commands here[3]
 
 [1] https://github.com/
 
 [2] http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+[3] https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
