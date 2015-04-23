@@ -13,6 +13,7 @@ To create a DocTM repository do the following:
 	git init
 
 5) Add your name and email address to the repository so that your comments and commits will be properly connected to you.
+	
 	git config --local user.name “Your name”
 	
 	git config --local user.email “Your email address”
